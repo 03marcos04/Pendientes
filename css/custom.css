@@ -1,0 +1,31 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+html,
+body {
+    margin: 0px !important;
+    color: #7f8c8d;
+    font-size: 16px;
+    background-color: #dde1e2;
+    width: 100%;
+    /* para que en android no pueda hacer el refesh de chrome */
+    overscroll-behavior-y: contain;
+    /* para que el usuario no pueda seleccionar texto */
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
